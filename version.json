@@ -1,0 +1,11 @@
+{
+  "ver": "0.4.74",
+  "date": "2026-11-22",
+  "notes": [
+    "指定變身改成勾選清單：依顏色分組、可勾多隻，變成其中一隻後不再選其他變身",
+    "新增線上更新：面板會提示新版，多開器與手機 App 自動下載",
+    "修正骰子／賭狗結果判斷、新職業被當成騎士等 12 個問題（0.4.72）"
+  ],
+  "sha256": "55a3b0b973160cc9d8831e9c68c4191e3e91252e6f839b955417ba43c858d7c6",
+  "download": "https://github.com/ryan25881-pixel/game155-helper/raw/main/downloads/game155-helper-chrome.zip"
+}

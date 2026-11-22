@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "天堂倖存者 小幫手",
+  "version": "0.4.74",
+  "description": "自動刷怪（閃避、撿取、自動進場）與賭狗。每個帳號請用獨立的 Chrome 設定檔。",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://web.game155.com/*",
+        "https://web2.game155.com/*",
+        "https://web3.game155.com/*"
+      ],
+      "js": ["touchmode.js"],
+      "run_at": "document_start",
+      "world": "MAIN",
+      "all_frames": false
+    },
+    {
+      "matches": [
+        "https://web.game155.com/*",
+        "https://web2.game155.com/*",
+        "https://web3.game155.com/*"
+      ],
+      "js": ["game155-helper.js"],
+      "run_at": "document_idle",
+      "world": "MAIN",
+      "all_frames": false
+    }
+  ]
+}
